@@ -1,38 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Swanky and Moo Moo';
+
+}
+
 .App {
-  text-align: center;
+  background-image: url('https://images.pexels.com/photos/218863/pexels-photo-218863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 88vh;
+  object-fit: cover;
+  /* background-color: #f6f0ef; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.foto {
+  width: 100%;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fotoContainer {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  top: 50px;
+  left:100px
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* estilos appBar */
+
+.appBar {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 2vw;
+  padding: 3vh;
+  background-color: #efe5e5;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.textoAppBar {
+  font-size: 25px;
+  letter-spacing: 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.barra {
+  margin: 0 7px;
 }
